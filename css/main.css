@@ -10,7 +10,7 @@
 
         
     body{
-        background: #5E63BA;
+        background: #f15946;
     }
 
 section{
@@ -18,7 +18,7 @@ section{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #5E63BA;
+    background: #f15946;
     min-width: 320px;
 }
 
@@ -100,7 +100,7 @@ section{
     cursor: pointer;
     outline: none;
     border: none;
-    background: #5E63BA;
+    background: #f15946;
     border-radius: 4px;
     text-transform: uppercase;
 }
@@ -112,7 +112,7 @@ section{
 }
 
 .keyboard button[disabled] {
-    opacity: 0.6;
+    opacity: 0.5;
     pointer-events: none;
 }
 :where(.game-modal, .keyboard) button:hover{
